@@ -1,0 +1,133 @@
+@font-face{
+    font-family: 'edinson';
+    src: url(./CascadiaCode.ttf);
+    font-weight: bold;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titulo{
+    color: #ffffff;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    user-select: none;
+}
+
+
+
+.home{
+    background-image: url(https://images.pexels.com/photos/139234/pexels-photo-139234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    position: relative;
+    font-size: 2rem;
+    font-family: "edinson";
+
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.2497373949579832) 6%, rgba(2,0,36,0.3981967787114846) 59%, rgba(145,0,255,0.053658963585434205) 100%);
+    
+}
+.section1{
+    min-height: 100vh;
+    background-color: #3C486B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soy-yo{
+    width: 100vw;
+    height: 50vh;
+    background-color: #FFFFFF10;
+    display: flex;
+    justify-content: flex-start;
+    user-select: none;
+}
+.description{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1.130rem;
+background-color: #FFFFFF10;
+
+}
+.soy-yo img{
+    height: 100%;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.description p {
+    max-width: 70vh;
+    margin-inline: 1rem;
+    color: #FFFFFF;
+    text-align: justify;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.barra{
+    background-color: #CCCC;
+    height: 1.875rem;
+    width: 30rem;
+    margin-inline: 4rem;
+    margin-top: 0.5rem;
+}
+.barra--progreso{
+    height: 100%;
+    background-color: #009FBD;
+    border-radius: 0px 16px 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFEA20;
+    font-family:'edinson';
+}
+.barra--progreso p{
+    margin-inline: 1rem;
+}
+
+
+.contenedor h2{
+    color: #FFFFFF;
+    
+}
+
+.soy-yo img:hover{
+    box-shadow: 0px 0px 16px #FFEA20;  
+    transition:all 0.5s;
+    cursor:pointer;
+}
+.description:hover{
+    text-shadow: #009FBD 0px 0px 16px;
+    transition:all 0.5s;
+    cursor:pointer;
+}
+
+.contenedor:hover{
+    box-shadow: #FFFFFF 0px 0px 16px;
+    transition:all 0.5s;
+    cursor:pointer;
+}
+
+
+.barra--progreso:hover{
+    box-shadow: #FFFFFF 0px 0px 16px;
+    transition:all 0.5s;
+    cursor:pointer;
+}
